@@ -1,0 +1,14 @@
+pandas
+numpy
+scipy
+statsmodels
+scikit-learn
+matplotlib
+seaborn
+wrds
+tabulate
+tensorflow
+ydata-profiling
+torch
+xgboost
+openpyxl
