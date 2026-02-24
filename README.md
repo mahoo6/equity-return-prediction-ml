@@ -5,7 +5,6 @@ This project aims to forecast monthly U.S. stock returns using machine learning,
 ## 📁 Project Structure
 
 ```         
-mltambe/
 ├── main.py                 # Main script to run the full pipeline
 ├── data_preprocessing.py  # Raw-to-ML dataset construction
 ├── linear_models.py       # Linear regression and shrinkage models (e.g., Ridge, Lasso)
@@ -23,6 +22,7 @@ mltambe/
 │       └── monthly_crsp.csv
 │       └── y.pkl
 ├── plots/                 # Output directory for plots
+├── project_report.pdf              # Full project report and results
 ```
 
 ## ✅ Getting Started
