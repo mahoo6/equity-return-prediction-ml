@@ -2,7 +2,7 @@
 
 This project aims to forecast monthly U.S. stock returns using machine learning, leveraging financial characteristics observable at the time of prediction. The **target variable** is derived from the **monthly CRSP dataset**, while **predictors** come from **quarterly Compustat fundamentals** and **JKP factor characteristics**, both offering rich insights into firm behavior and asset pricing dynamics.
 
-## 📁 Project Structure
+## Project Structure
 
 ```         
 ├── main.py                 # Main script to run the full pipeline
@@ -25,7 +25,7 @@ This project aims to forecast monthly U.S. stock returns using machine learning,
 ├── project_report.pdf              # Full project report and results
 ```
 
-## ✅ Getting Started
+## Getting Started
 
 ### 1. Install Dependencies
 
@@ -63,7 +63,7 @@ python main.py
 
 > This will train models, evaluate them, and save results and plots in the `plots/` directory.
 
-## 🧠 Models Implemented
+## Models Implemented
 
 -   **OLS, Ridge, and Lasso Regression** (`linear_models.py`)
 -   **Multi-Layer Perceptron (MLP)** (`mlp_model.py`)
@@ -74,3 +74,7 @@ python main.py
 -   Plots of predicted vs. actual returns
 -   IC Distribution, Rolling IC
 -   All outputs saved in the `plots/` folder
+
+## Authors 
+
+Mahe Velay, Elias Bourgon, Adélaïde Robert, Théodore Decaux, Benjamin Beretz
